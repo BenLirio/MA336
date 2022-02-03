@@ -11,8 +11,9 @@ let rec in_natural_numbers (x : num) : bool =
 
 type relation = int * int
 
-let is_equivalance
-
+let reflexive r =
+  let rec aux 
+let equivalence_relation r =
 
 let () =
   Printf.printf "%b\n" (in_natural_numbers (-5))
